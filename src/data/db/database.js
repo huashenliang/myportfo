@@ -3,20 +3,20 @@ import Mock from "../mock";
 const database = {
   information: {
     name: 'Huashen Liang',
-    aboutContent: "I am a Junior Web/DevOps developer who can trun coffee into code.",
+    aboutContent: "I am a Junior Web/DevOps developer who can turn coffee into code.",
     age: 24,
     phone: '+1 705-970-7505',
     location: 'Ontario, Canada',
     language: 'English, Cantonese, Mandarin',
     email: 'JohnnyLiang77@gmail.com',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
+      facebook: '',
+      twitter: '',
       pinterest: '',
       behance: '',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/hua-shen-liang/',
       dribbble: '',
-      github: 'https://github.com'
+      github: 'https://github.com/huashenliang'
     },
     brandImage: '/images/icon.jpg',
     aboutImage: '/images/developer.jpg',
