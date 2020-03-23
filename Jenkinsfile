@@ -9,7 +9,7 @@ pipeline{
                         docker rm -f react-docker;
                         docker image rm -f react-docker;
                         cd /opt/docker;
-                        docker build -t react-docker; .''', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '//opt//react-docker', remoteDirectorySDF: false, removePrefix: '', sourceFiles: '/var/lib/jenkins/workspace/react-docker')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
+                        docker build -t react-docker .; .''', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '//opt//react-docker', remoteDirectorySDF: false, removePrefix: '', sourceFiles: '/var/lib/jenkins/workspace/react-docker')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
             }
         }
     }
