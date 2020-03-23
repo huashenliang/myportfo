@@ -2,12 +2,12 @@ pipeline{
     agent any
     stages {
         stage('install'){
-            setps{
+            steps{
                 sh 'npm install'
             }
         }
         stage('run'){
-            setps{
+            steps{
                 sh 'npm start'
             }
         }
