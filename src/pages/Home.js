@@ -56,7 +56,7 @@ function Home(){
                 <h1>
                   Hi, I am <span className="color-theme">{information.name}</span>
                 </h1>
-                <p>Testing for jenkins v3</p>
+                <p>Testing for jenkins v4</p>
                 <p>{information.aboutContent}</p>
                 <Socialicons bordered />
               </div>
