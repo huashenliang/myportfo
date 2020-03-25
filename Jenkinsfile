@@ -8,7 +8,7 @@ docker rm -f react_docker;
 docker image rm -f react_docker;
 docker rmi $(docker images -aq);
 cd opt/react-docker;
-docker build -t react_docker .
+docker build -t react_docker react_docker .
 docker run -d -p 8080:80 --name react_docker react_docker
 ''', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/opt/react-docker', remoteDirectorySDF: false, removePrefix: '', sourceFiles: ' **/*')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
             }
