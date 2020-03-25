@@ -56,7 +56,7 @@ function Home(){
                 <h1>
                   Hi, I am <span className="color-theme">{information.name}</span>
                 </h1>
-                <p>testing!!!</p>
+                <p>testing 222!!!</p>
                 <p>{information.aboutContent}</p>
                 <Socialicons bordered />
               </div>
