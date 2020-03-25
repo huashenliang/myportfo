@@ -34,7 +34,14 @@ pipeline {
   }
   agent any
 
-  tools {nodejs "node" }
+  tools {nodejs "recent node" }
+
+    stages {
+        stage('ssh to docker server'){
+            steps{
+                sshPublisher(publishers: [sshPublisherDesc(configName: 'docker_host', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '', execTimeout: 120000, flatten: false, makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', remoteDirectory: '/opt/react-docker', remoteDirectorySDF: false, removePrefix: '', sourceFiles: ' **/*')], usePromotionTimestamp: false, useWorkspaceInPromotion: false, verbose: false)])
+            }
+        }
 
   stages {
     stage('Cloning Git') {
