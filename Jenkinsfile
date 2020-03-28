@@ -3,8 +3,10 @@ pipeline{
     stages {
         stage('ssh and build'){
             steps{
-              sshPublisher(publishers: [sshPublisherDesc(configName: 'docker_host', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '''docker rm -f react_docker;
+              sshPublisher(publishers: [sshPublisherDesc(configName: 'docker_host', transfers: [sshTransfer(cleanRemote: false, excludes: '', execCommand: '''
+                    docker rm -f react_docker;
                     docker image rm -f react_docker;
+                    docker rmi $(docker images -aq);
                     cd opt/react-docker;
                     docker build -t react_docker .
                     docker run -d -p 80:80 --name react_docker react_docker
