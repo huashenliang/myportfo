@@ -176,10 +176,10 @@ const database = {
     {
       id: 1,
       title: "Guitar E-commerce Website ",
-      subtitle: "A e-commerce website build using React.",
-      imageUrl: "/images/comingsoon.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      subtitle: "An e-commerce project using React, Redux, Express, MongoDB",
+      imageUrl: "/images/project-1.png",
+      largeImageUrl: ["/images/Tune.gif"],
+      url: 'http://www.tune-reactproject.com/'
     },
     {
       id: 2,
