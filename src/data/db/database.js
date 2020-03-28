@@ -80,6 +80,10 @@ const database = {
         title: "Kubernetes",
         value: 1
       },
+      {
+        title: "AWS",
+        value: 0.5
+      }
     ],
     web:[
       {
@@ -231,20 +235,6 @@ const database = {
        "Created website content, meta descriptions, and title tags in support of SEO strategies and improved the conversion rate resulting in sales increase and higher traffic"
         ]
       }
-      // {
-      //   id: 1,
-      //   year: "2016 - 2018",
-      //   position: "Frontend Web Developer",
-      //   company: "CBA Company",
-      //   details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      // },
-      // {
-      //   id: 2,
-      //   year: "2014 - 1016",
-      //   position: "UI/UX Designer",
-      //   company: "Example Company",
-      //   details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      // }
     ],
     educationExperience: [
       {
