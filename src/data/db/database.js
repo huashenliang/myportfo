@@ -189,7 +189,7 @@ const database = {
       id: 2,
       title: "DevOps pipeline project",
       subtitle: "Jenkins CI/CD pipeline using Jenkinsfile for this portofilo project and build docker container on AWS EC2 instance.",
-      imageUrl: "/images/project-2.png",
+      imageUrl: "/images/project-2.PNG",
       largeImageUrl: [
         "/images/project-2.png"
       ]
