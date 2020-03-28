@@ -187,14 +187,13 @@ const database = {
     },
     {
       id: 2,
-      title: "Project2",
-      subtitle: "",
-      imageUrl: "/images/comingsoon.jpg",
+      title: "DevOps pipeline project",
+      subtitle: "Jenkins CI/CD pipeline using Jenkinsfile for this portofilo project and build docker container on AWS EC2 instance.",
+      imageUrl: "/images/project-2.png",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
+        "/images/project-2.png"
+      ]
+      // url: 'https://github.com/huashenliang?tab=repositories'
     },
     {
       id: 3,
