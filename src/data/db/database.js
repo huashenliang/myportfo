@@ -187,7 +187,7 @@ const database = {
     },
     {
       id: 2,
-      title: "DevOps pipeline project",
+      title: "DevOps Pipeline Project",
       subtitle: "Jenkins CI/CD pipeline using Jenkinsfile for this personal portofilo project and build docker container on AWS EC2 instance.",
       imageUrl: "/images/project-2.PNG",
       largeImageUrl: [
@@ -197,10 +197,11 @@ const database = {
     },
     {
       id: 3,
-      title: "Project3",
-      subtitle: "",
-      imageUrl: "/images/comingsoon.jpg",
-      url: 'https://pinterest.com'
+      title: "React Realtime Chatroom ",
+      subtitle: "A realtime chatroom using React, Express and Socket.io",
+      imageUrl: "/images/project-3.jpg",
+      largeImageUrl: ["/images/project-3.jpg"],
+      url: 'http://www.react-chatroom.site/'
     },
     {
       id: 4,
