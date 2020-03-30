@@ -114,6 +114,10 @@ const database = {
         title: "Graphql",
         value: 1
       },
+      {
+        title: "WordPress",
+        value: 1
+      }
     ],
     app:[
       {
@@ -180,7 +184,7 @@ const database = {
     {
       id: 1,
       title: "Guitar E-commerce Website ",
-      subtitle: "An e-commerce project using React, Redux, Express, MongoDB",
+      subtitle: "An e-commerce project using React, Redux, Express, MongoDB. Able to login as admin to add, remove and edit products",
       imageUrl: "/images/project-1.png",
       largeImageUrl: ["/images/Tune.gif"],
       url: 'http://www.tune-reactproject.com/'
@@ -188,7 +192,7 @@ const database = {
     {
       id: 2,
       title: "DevOps Pipeline Project",
-      subtitle: "Jenkins CI/CD pipeline using Jenkinsfile for this personal portofilo project and build docker container on AWS EC2 instance.",
+      subtitle: "Jenkins CI/CD pipeline using Jenkinsfile and Dockerfile for this personal portofilo project and build docker container on AWS EC2 instance.",
       imageUrl: "/images/project-2.PNG",
       largeImageUrl: [
         "/images/project-2.png"
