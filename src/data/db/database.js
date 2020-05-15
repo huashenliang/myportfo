@@ -183,21 +183,19 @@ const database = {
   portfolios: [
     {
       id: 1,
+      title: "Academy Website",
+      subtitle: "An academy website for school, college and university. Built by WordPress using Elementor and OceanWP theme",
+      imageUrl: "/images/academy-project.png",
+      largeImageUrl: ["/images/academy-project.png"],
+      url: 'http://academy-project-wp.com/'
+    },
+    {
+      id: 2,
       title: "Guitar E-commerce Website ",
       subtitle: "An e-commerce project using React, Redux, Express, MongoDB. Able to login as admin to add, remove and edit products",
       imageUrl: "/images/project-1.png",
       largeImageUrl: ["/images/Tune.gif"],
       url: 'http://www.tune-reactproject.com/'
-    },
-    {
-      id: 2,
-      title: "DevOps Pipeline Project",
-      subtitle: "Jenkins CI/CD pipeline using Jenkinsfile and Dockerfile for this personal portofilo project and build docker container on AWS EC2 instance.",
-      imageUrl: "/images/project-2.PNG",
-      largeImageUrl: [
-        "/images/project-2.png"
-      ]
-      // url: 'https://github.com/huashenliang?tab=repositories'
     },
     {
       id: 3,
@@ -209,6 +207,17 @@ const database = {
     },
     {
       id: 4,
+      title: "DevOps Pipeline Project",
+      subtitle: "Jenkins CI/CD pipeline using Jenkinsfile and Dockerfile for this personal portofilo project and build docker container on AWS EC2 instance.",
+      imageUrl: "/images/project-2.PNG",
+      largeImageUrl: [
+        "/images/project-2.png"
+      ]
+      // url: 'https://github.com/huashenliang?tab=repositories'
+    },
+  
+    {
+      id: 5,
       title: "Leave Management Dashboard",
       subtitle: "A leave management dashboard using asp.net core, bootstrap and implemented Website Layout using AdminLTE Theme",
       imageUrl: "/images/leave-management.png",
