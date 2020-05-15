@@ -11,6 +11,7 @@ function Resumes(){
   const [skills, setSkills] = useState([]);
   const [workingExperience, setWorkingExperience] = useState([]);
   const [educationExperience, setEducationExperience] = useState([]);
+  const [information, setInformation] = useState([]);
 
   useEffect(() =>{
     axios.get('/api/experience')
@@ -18,14 +19,18 @@ function Resumes(){
         setWorkingExperience(response.data.workingExperience);
         setEducationExperience(response.data.educationExperience);
       })
+      axios.get('/api/information')
+      .then(response =>{
+        setInformation(response.data)
+      })
   }, [])
 
   return (
     <Layout>
-
+        
       <div className="mi-resume-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
-          <Sectiontitle title="Resume" />
+            <Sectiontitle title="Resume" />
           <Smalltitle title="Working Experience" icon="briefcase" />
           <div className="mi-resume-wrapper">
             {workingExperience.map(workingExp => {
@@ -41,7 +46,13 @@ function Resumes(){
               <Resume key={educatonExp.id} resumeData={educatonExp}/>
             ))}
           </div>
+          <div style={{paddingTop: '5%'}}> 
+          {console.log(information)}
+           <a href={information.cvfile} className="mi-button">Download Resume</a>
+          </div>
+      
         </div>
+        
       </div>
     </Layout>
   );

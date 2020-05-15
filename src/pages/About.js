@@ -73,13 +73,13 @@ function About(){
                   alt="about"
                   onClick={() => handleToggler(!toggler)}
                 />
-                <span className="mi-about-image-icon">
+                {/* <span className="mi-about-image-icon">
                   <Icon.ZoomIn />
                 </span>
                 <FsLightbox
                   toggler={toggler}
                   sources={[information.aboutImageLg]}
-                />
+                /> */}
               </div>
             </div>
             <div className="col-lg-6">
@@ -114,15 +114,39 @@ function About(){
                     <b>Freelance</b> {information.freelanceStatus}
                   </li>}
                 </ul>
-                <a href={information.cvfile} className="mi-button">Download CV</a>
+                <a href={information.cvfile} className="mi-button">Download Resume</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      
+      <div className="mi-about-area mi-section mi-padding-top">
+        <div className="container">
+          <Sectiontitle title="My Certifications" />
+          <div className="row">
+            <div className="col-lg-6">
+              <div className="mi-about-image">
+                <img
+                  src={information.certImages}
+                  alt="about"
+                  onClick={() => handleToggler(!toggler)}
+                />
+                <span className="mi-about-image-icon">
+                  <Icon.ZoomIn />
+                </span>
+                <FsLightbox
+                  toggler={toggler}
+                  sources={[information.certImages]}
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
 
-     
-     
+
       <div className="mi-skills-area mi-section mi-padding-top">
         <div className="container" style={{paddingBottom:100}}>
           <Sectiontitle title="My Skills" />

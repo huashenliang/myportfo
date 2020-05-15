@@ -20,6 +20,7 @@ const database = {
     },
     brandImage: '/images/icon.jpg',
     aboutImage: '/images/developer.jpg',
+    certImages: ['/images/CKAD.jpg'],
     aboutImageLg: '/images/developer.jpg',
     cvfile: '/files/resume.pdf'
   },
