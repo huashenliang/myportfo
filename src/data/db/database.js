@@ -216,7 +216,6 @@ const database = {
       ]
       // url: 'https://github.com/huashenliang?tab=repositories'
     },
-  
     {
       id: 5,
       title: "Leave Management Dashboard",
@@ -224,7 +223,18 @@ const database = {
       imageUrl: "/images/leave-management.png",
       largeImageUrl: ["/images/leave-management.png"],
       url: 'https://leave-management20200430101524.azurewebsites.net/LeaveRequest'
-    }
+    },
+    {
+      id: 6,
+      title: "React COVID-19 Tracker",
+      subtitle: "Tracking for COVID-19 cases using React, react-chart, and Express",
+      imageUrl: "/images/covid-19-tracker.png",
+      largeImageUrl: [
+        "/images/covid-19-tracker.png"
+      ],
+      url: 'http://www.react-tracker.xyz/'
+    },
+  
   ],
   experience: {
     workingExperience: [
