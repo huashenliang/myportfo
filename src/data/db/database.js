@@ -201,10 +201,37 @@ const database = {
     {
       id: 3,
       title: "Football Club Info Website ",
-      subtitle: "Manchester Untied Info website using React, Firebase as realtime database and Firebase bucket to store images. Able to login as admin to add, remove and edit player and match informaiton,",
+      subtitle: "Manchester Untied Info website using React, Firebase as realtime database and Firebase bucket to store images. Able to login as admin to add, remove and edit player and match informaiton.",
       imageUrl: "/images/mutd.png",
       largeImageUrl: ["/images/mutd-info.gif"],
       url: 'http://www.mutd-info-project.site/'
+    },
+    {
+      id: 9,
+      title: "Vue - YouTube video browser",
+      subtitle: "A simple video browser using vue and YouTube API, able to search and play video",
+      imageUrl: "/images/vue-videobrowser.png",
+      largeImageUrl: ["/images/video-browser.gif"],
+      url: 'http://vue-videobrowser.xyz./'
+    },
+ 
+    {
+      id: 8,
+      title: "Coming Soon Landing Page ",
+      subtitle: "A coming soon landing page using react and mailchampAPI, showing the countdown time and able to subscribe email",
+      imageUrl: "/images/lofy.png",
+      largeImageUrl: ["/images/lofy.png"],
+      url: 'https://lofy.io/'
+    },
+    {
+      id: 7,
+      title: "React COVID-19 Tracker",
+      subtitle: "Tracking for COVID-19 cases using React, react-chart, and Express",
+      imageUrl: "/images/covid-19-tracker.png",
+      largeImageUrl: [
+        "/images/covid-19-tracker.png"
+      ],
+      url: 'http://www.react-tracker.xyz/'
     },
     {
       id: 4,
@@ -232,16 +259,7 @@ const database = {
       largeImageUrl: ["/images/leave-management.png"],
       url: 'https://leave-management20200430101524.azurewebsites.net/LeaveRequest'
     },
-    {
-      id: 7,
-      title: "React COVID-19 Tracker",
-      subtitle: "Tracking for COVID-19 cases using React, react-chart, and Express",
-      imageUrl: "/images/covid-19-tracker.png",
-      largeImageUrl: [
-        "/images/covid-19-tracker.png"
-      ],
-      url: 'http://www.react-tracker.xyz/'
-    },
+   
   
   ],
   experience: {
